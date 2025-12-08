@@ -1,0 +1,88 @@
+/* Tablet */
+@media only screen  and (max-width:1024px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .row {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero .row {
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0px;
+  gap: 30px;
+}
+
+  .brands .row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+  .hero .left-side,
+  .hero .right-side {
+    width: 100%;
+  }
+
+
+  .aboutus .row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .aboutus .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  } 
+}
+
+/* Mobile Phone */
+
+@media only screen and (max-width:768px) {
+header, main, footer {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .row {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.hero .row {
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0px;
+  gap: 30px;
+}
+
+.cards {
+  flex-direction: column;
+}
+
+.card {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.aboutus .row {
+  flex-direction: column;
+  text-align: center;
+}
+}
