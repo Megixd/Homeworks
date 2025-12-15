@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.brg-black {
+  background-color: black;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+header {
+  padding: 20px 0px;
+}
+
+header .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+header .white-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 26px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.white-button {
+  font-size: 18px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 26px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 100px;
+  background-image: url(images/Ornament\ 26\ 1.png);
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+}
+
+.hero .left-side {
+  width: 50%;
+  flex-direction: column;
+  gap: 181px;
+  padding: 40px 0px;
+  margin-right: 50px;
+}
+
+.hero .top h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.color-green{
+  color: #64CCC5;
+}
+
+.hero .top p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+
+.white-button span {
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.left-side .bottom span h4 {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.hero-img {
+  max-width: 700px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.services {
+  padding: 100px 0px;
+}
+
+.services .top-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.top-title h2 {
+  font-size: 64px;
+  font-weight: 600;
+  width: 700px;
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+.top-title span h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  gap: 62px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 45px;
+  border-radius: 20px;
+  background-color: #F4F4F4;
+  flex: 1 1 calc(33.3% - 62px);
+
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.card h3 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  line-height: 23px;
+}
+
+.aboutus {
+  color: white;
+  padding: 100px 0px;
+}
+
+.aboutus img {
+  width: 750px;
+  height: 700px;
+}
+
+.aboutus .right-side {
+  width: 600px;
+}
+
+.aboutus h4{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.aboutus h2 {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.aboutus p {
+  line-height: 25px;
+}
+
+.aboutus .row {
+  gap: 70px;
+}
+
+.numbers {
+  margin: 40px 0px;
+}
+
+.numbers span {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.numbers p {
+  margin-top: 10px;
+}
+
+
+
+
+/* footer styling */
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px 0px;
+}
+
+footer .top {
+  padding-bottom: 90px;
+}
+
+footer h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer p {
+  width: 350px;
+  line-height: 25px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
+
+footer .search-input {
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  padding: 15px;
+  width: 400px; 
+}
+
+footer .form {
+ position: relative;
+}
+
+footer button {
+  background-color: #0c0c0c;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  position: absolute;
+  right: 10px;
+}
+
+footer .bottom {
+  align-items: flex-start;
+  border-top: 1px solid #F4F4F4;
+  padding-top: 40px;
+}
+
+footer .bottom a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .social-media .icon {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  
+}
+
+footer .social-media {
+ gap: 20px;
+ align-items: center;
+}
+
+/* footer styling end */
+
+
+
+
+
+
+
+
